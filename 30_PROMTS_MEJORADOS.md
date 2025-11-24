@@ -1512,9 +1512,6 @@ Al finalizar, la persona debe entender:
 * Cómo guardar números.
 * Cómo hacer operaciones básicas.
 * Cómo ver resultados inmediatamente en la consola del navegador.
-
-Aquí tenés pipe, **el Promt 14 completamente mejorado**, versión *10/10*, en **Markdown verdadero**, siguiendo exactamente la misma estructura profesional que estás usando en todos los demás.
-
 ---
 
 # Promt 14
@@ -1657,3 +1654,2292 @@ Luego de la explicación, la persona debe entender:
 * Cómo ver resultados reales en la consola.
 
 ---
+
+# Promt 15 
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, usando explicaciones simples, analogías cotidianas, ejemplos visuales y un enfoque totalmente práctico.
+
+---
+
+## **Tarea**
+
+Explicar **qué es una expresión booleana en JavaScript y para qué se usa**, dirigido a una persona que **nunca programó antes**, usando lenguaje cotidiano y evitando tecnicismos innecesarios.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No usar tecnicismos sin explicarlos inmediatamente.
+2. No asumir ningún conocimiento previo.
+3. Cada símbolo (`>`, `<`, `===`, `!==`) debe explicarse de forma simple.
+4. Usar analogías cotidianas para explicar valores booleanos.
+5. Incluir ejemplos extremadamente simples y visualizables.
+6. Mostrar cómo se usan dentro de un `if`.
+7. Agregar mini-ejercicios para practicar.
+8. Indicar cómo abrir la consola del navegador.
+9. Mantener un tono amable, claro y motivador.
+10. No avanzar a temas complejos (truthy/falsy avanzado, short-circuiting, lógica encadenada).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Describir con lenguaje cotidiano:
+
+> “Una expresión booleana es una pregunta que JavaScript responde con **verdadero** o **falso**, igual que cuando vos respondés sí o no.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Ejemplos aceptados:
+
+* “Es como preguntarte: *¿tengo hambre?* — solo puede ser sí o no.”
+* “Es como un semáforo mental: solo tiene dos opciones: seguir (verdadero) o detenerse (falso).”
+
+---
+
+### **3. Ejemplos Simples de Expresiones Booleanas**
+
+---
+
+#### **A. Comparar números**
+
+```js
+5 > 2  
+7 < 3   
+```
+
+Símbolos explicados:
+
+* `>` significa “mayor que”.
+* `<` significa “menor que”.
+
+---
+
+#### **B. Comparar textos**
+
+```js
+"hola" === "hola" 
+```
+
+Símbolo:
+
+* `===` compara si dos cosas son exactamente iguales.
+
+---
+
+#### **C. Comparar edades**
+
+```js
+let edad = 18;
+edad >= 18 
+```
+
+Símbolo:
+
+* `>=` significa “mayor o igual que”.
+
+---
+
+### **4. Por Qué Es Importante**
+
+Explicación clara:
+
+> “Las expresiones booleanas permiten que JavaScript tome decisiones.
+> Son la base de cualquier `if`.”
+
+Ejemplo:
+
+```js
+let edad = 18;
+
+if (edad >= 18) {
+  console.log("Sos mayor de edad");
+}
+```
+
+---
+
+### **5. Dónde Probarlo**
+
+Instrucciones:
+
+1. Abrir Google Chrome.
+2. Presionar **F12**.
+3. Ir a **Consola**.
+4. Escribir los ejemplos y presionar Enter.
+
+---
+
+### **6. Mini-Ejercicios para Practicar**
+
+* Preguntar si **10 es mayor que 8**.
+* Ver si `"JavaScript"` es igual a `"javascript"` usando `===`.
+* Comparar si tu edad es mayor que 12.
+* Evaluar si **3 !== 5** (distintos).
+* Crear un `if` que diga “Aceptado” si tu edad es mayor o igual a 18.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe terminar entendiendo:
+
+* Qué es un valor booleano (verdadero/falso).
+* Qué es una expresión booleana.
+* Para qué sirve.
+* Cómo se usa en un `if`.
+* Cómo escribir y probar expresiones en la consola del navegador.
+
+---
+
+# Promt 16 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, usando explicaciones simples, analogías visuales y ejemplos totalmente prácticos.
+
+---
+
+## **Tarea**
+
+Explicar **qué es una función en JavaScript y cómo se usa**, dirigido a una persona que **nunca programó antes**, brindando solo el contexto esencial para que la entienda sin confundirse.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No usar tecnicismos sin explicarlos inmediatamente.
+2. No asumir que la persona sabe qué es “código”, “programar” o “ejecutar”.
+3. Usar analogías de la vida cotidiana.
+4. Mantener las explicaciones simples, visuales y motivadoras.
+5. Ejemplos extremadamente básicos (saludar, sumar, responder un mensaje).
+6. Explicar cada símbolo: `function`, `()`, `{}`, `return`.
+7. Mostrar cómo “llamar” una función.
+8. Incluir mini-ejercicios muy fáciles.
+9. Indicar dónde probar el código (consola del navegador).
+10. No avanzar a temas complejos (arrow functions, callbacks, this, parámetros avanzados).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Explicar qué es una función usando lenguaje cotidiano:
+
+> “Una función es un conjunto de instrucciones que le decís a JavaScript para que haga algo cuando vos quieras.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Ejemplos de analogías permitidas:
+
+* Una **receta de cocina**: pasos que se siguen para obtener un resultado.
+* Un **botón de una máquina**: cuando lo presionás, la máquina hace una tarea.
+* Una **nota con instrucciones**: que podés usar las veces que quieras.
+
+---
+
+### **3. Ejemplos Muy Simples**
+
+#### **A. Función que saluda**
+
+```js
+function saludar() {
+  console.log("Hola!");
+}
+
+saludar(); // Llamar a la función
+```
+
+Explicación de símbolos:
+
+* `function` → palabra para crear funciones.
+* `saludar` → nombre.
+* `()` → lugar donde irían datos (por ahora vacío).
+* `{}` → pasos que ejecuta la función.
+
+---
+
+#### **B. Función que suma dos números**
+
+```js
+function sumar() {
+  return 2 + 3;
+}
+
+console.log(sumar());
+```
+
+Explicación:
+
+* `return` → indica el resultado que la función devuelve.
+
+---
+
+### **4. Cómo “Llamar” una Función**
+
+Explicación simple:
+
+> “Llamar una función es como decir **hacé lo que te pedí**.”
+
+Ejemplo:
+
+```js
+saludar();
+```
+
+---
+
+### **5. Dónde Probarlo**
+
+Pasos simples:
+
+1. Abrir Chrome.
+2. Presionar **F12**.
+3. Ir a la pestaña **Consola**.
+4. Copiar y pegar los ejemplos.
+5. Presionar Enter.
+
+---
+
+### **6. Mini-Ejercicios para Practicar**
+
+* Crear una función que muestre tu nombre en consola.
+* Crear una función que devuelva tu edad.
+* Crear una función que devuelva el doble de un número (fijo).
+* Crear una función que muestre un mensaje como “¡Practiqué JavaScript hoy!”.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe terminar entendiendo:
+
+* Qué es una función.
+* Para qué sirve.
+* Cómo se escribe.
+* Qué significan cada parte y símbolo.
+* Cómo ejecutarla.
+* Cómo probar ejemplos por su cuenta.
+
+---
+
+# Promt 17
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, usando explicaciones claras, visuales, simples y totalmente prácticas.
+
+---
+
+## **Tarea**
+
+Explicar **qué es una condición `if…else` en JavaScript y para qué sirve**, dirigido a una persona que **nunca programó antes**, brindando únicamente el contexto esencial.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No usar tecnicismos sin explicarlos al instante.
+2. No asumir que la persona entiende qué es “condición”, “evaluar”, “expresión” o “ejecutar”.
+3. Usar analogías muy simples de la vida real.
+4. Mantener siempre un tono claro, amable y motivador.
+5. Explicar cada símbolo básico: `if`, `()`, `{}`, `else`.
+6. Los ejemplos deben ser extremadamente sencillos y visuales.
+7. Incluir mini-ejercicios para que la persona practique.
+8. Mostrar cómo probar el código en la consola del navegador.
+9. No avanzar a temas avanzados (`else if`, operadores lógicos, comparaciones múltiples).
+10. Todo debe estar explicado como si fuera la primera vez que la persona ve código en su vida.
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Contexto Simple**
+
+Explicación clara y cotidiana:
+
+> “Un `if` sirve para que JavaScript tome decisiones según una condición. Es como decir: **si pasa esto, hacé esto; si no pasa, hacé otra cosa**.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Usar una analogía ultra simple, por ejemplo:
+
+* **“Si llueve, uso paraguas; si no llueve, no uso paraguas.”**
+* **“Si tengo hambre, como; si no, sigo haciendo otra cosa.”**
+
+Estas analogías deben dejar claro qué significa “si… entonces… si no…”.
+
+---
+
+### **3. Ejemplos Muy Simples y Visuales**
+
+#### **A. Ejemplo básico**
+
+```js
+let edad = 18;
+
+if (edad >= 18) {
+  console.log("Sos mayor de edad");
+} else {
+  console.log("Sos menor de edad");
+}
+```
+
+Explicación de símbolos:
+
+* `if` → “si sucede esto…”.
+* `()` → aquí va la condición que se va a evaluar.
+* `{}` → instrucciones que se ejecutan si la condición es verdadera.
+* `else` → lo que pasa si la condición es falsa.
+* `>=` → “mayor o igual que”.
+
+---
+
+#### **B. Ejemplo aún más simple**
+
+```js
+let llueve = true;
+
+if (llueve) {
+  console.log("Llevo paraguas");
+} else {
+  console.log("No llevo paraguas");
+}
+```
+
+Explicación:
+
+* `true` significa “verdadero”.
+* Si la condición es verdadera, se ejecuta el bloque del `if`.
+
+---
+
+### **4. Qué Significa “Verdadero” y “Falso”**
+
+Explicar en lenguaje cotidiano:
+
+> “Verdadero” significa que la condición se cumple.
+> “Falso” significa que no se cumple.
+
+---
+
+### **5. Dónde Probarlo**
+
+Instrucciones simples:
+
+1. Abrir Chrome.
+2. Presionar **F12**.
+3. Ir a la pestaña **Consola**.
+4. Copiar el ejemplo.
+5. Presionar Enter.
+
+---
+
+### **6. Mini-Ejercicios para Practicar**
+
+Ejercicios muy fáciles:
+
+1. Crear una condición que diga si hoy es tu día favorito.
+2. Crear un `if` que diga “Hace calor” si la temperatura es mayor a 25.
+3. Crear un `if…else` que diga “Tenés permiso” o “No tenés permiso”.
+4. Crear un `if…else` para saber si tu nombre tiene más de 5 letras.
+
+---
+
+## **Resultado Esperado**
+
+Después de la explicación, la persona debe entender:
+
+* Qué es una condición.
+* Para qué sirve un `if…else`.
+* Cómo se lee en voz alta.
+* Cómo escribirlo.
+* Cómo probarlo.
+* Cómo modificarlo con sus propios ejemplos.
+
+---
+
+# Promt 18 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional trabajando con JavaScript**, tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, explicando conceptos técnicos con claridad, ejemplos visuales y práctica real.
+
+---
+
+## **Tarea**
+
+Explicar **qué es un comentario en JavaScript y para qué sirve**, dirigido a una persona que **nunca programó antes**, brindando únicamente el contexto necesario para comprenderlo.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No usar tecnicismos sin explicarlos inmediatamente.
+2. No asumir que la persona entiende qué es “código”, “línea”, “ejecución” o “programa”.
+3. Explicar de manera extremadamente simple.
+4. Cada explicación debe venir acompañada de un ejemplo visual y pequeño.
+5. Incluir analogías cotidianas obligatoriamente.
+6. Explicar por qué los comentarios **no se ejecutan** nunca.
+7. Mostrar ejemplos básicos de:
+
+   * comentario de una línea (`//`)
+   * comentario de varias líneas (`/* ... */`)
+8. Mantener un tono amable, paciente y motivador.
+9. Incluir mini-ejercicios para que la persona practique.
+10. Mostrar dónde probar los ejemplos (consola del navegador o archivo simple).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Contexto Simple**
+
+Explicar con palabras cotidianas:
+
+> “Un comentario es una nota o recordatorio que escribís dentro del código, pero que JavaScript ignora por completo.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Usar una comparación simple que cualquier persona comprenda:
+
+* “Es como pegar un post-it al lado de una receta para recordar algo importante.”
+* “Es como escribir anotaciones en los márgenes de un cuaderno.”
+
+---
+
+### **3. Ejemplos Muy Simples**
+
+#### **A. Comentario de una línea**
+
+```js
+// Esto es un comentario de una sola línea
+console.log("Hola");
+```
+
+Explicación:
+
+* `//` → todo lo que escribas después, en esa misma línea, **no se ejecuta**.
+
+---
+
+#### **B. Comentario de varias líneas**
+
+```js
+/*
+  Este es un comentario
+  de más de una línea.
+*/
+console.log("Mensaje visible");
+```
+
+Explicación:
+
+* `/*` inicia un comentario.
+* `*/` lo cierra.
+* Todo lo que esté en el medio **no se ejecuta**.
+
+---
+
+### **4. ¿Por Qué los Comentarios No se Ejecutan?**
+
+Explicación simple:
+
+> “Porque están hechos para humanos, no para la computadora. JavaScript los saltea como si no existieran.”
+
+Sirven para:
+
+* explicar pasos
+* recordar ideas
+* dejar notas
+* dividir secciones de código
+
+---
+
+### **5. Dónde y Cómo Probarlo**
+
+1. Abrir Chrome.
+2. Presionar **F12**.
+3. Ir a la pestaña **Consola**.
+4. Copiar los ejemplos.
+5. Ver cómo solo se ejecutan las líneas sin comentarios.
+
+---
+
+### **6. Mini-Ejercicios para Practicar**
+
+1. Escribir un comentario que diga tu nombre.
+2. Escribir un comentario que explique qué hace una variable.
+3. Escribir un comentario de varias líneas contando lo que querés aprender.
+4. Probar mezclar comentarios con `console.log()` y ver qué se ejecuta.
+
+---
+
+## **Resultado Esperado**
+
+Después de la explicación, la persona debe entender:
+
+* Qué es un comentario.
+* Para qué sirve.
+* Qué símbolos se usan.
+* Que **no afectan** al programa.
+* Cómo escribirlos y dónde probarlos.
+
+---
+
+# PROMT 19 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, usando explicaciones claras, visuales y completamente prácticas.
+
+---
+
+## **Tarea**
+
+Explicar **qué es una plantilla de texto (template string) en JavaScript y para qué se usa**, dirigido a una persona que **nunca programó antes**, brindando solo el contexto esencial para comprenderlo.
+
+---
+
+## **Reglas Duras (Obligatorias)**
+
+1. No usar tecnicismos sin explicarlos inmediatamente.
+2. No asumir que la persona entiende conceptos como “string”, “variable” o “concatenar”.
+3. Usar analogías cotidianas para explicar cada concepto.
+4. Todos los ejemplos deben ser **muy simples**, visuales y fáciles de probar.
+5. Explicar con claridad qué son las **comillas invertidas** (backticks) `` ` ``.
+6. Explicar el uso de **${ }** de forma simple y visual.
+7. Mostrar ejemplos con nombres, mensajes o frases comunes.
+8. Mantener un tono amable, claro, paciente y motivador.
+9. Incluir mini-ejercicios para que la persona practique.
+10. Invitar a probar todo en la **consola del navegador** (explicar cómo abrirla).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Contexto Simple**
+
+Explicar con lenguaje cotidiano qué es una plantilla de texto:
+
+> “Una template string es una forma de escribir frases donde podés dejar huecos que después se llenan con valores.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Usar una analogía obligatoria, como:
+
+> “Es como escribir: *Hola, mi nombre es ___ y tengo ___ años*, y luego completar los huecos con los valores.”
+
+---
+
+### **3. Ejemplos Muy Simples**
+
+#### **A. Cómo se escriben (comillas invertidas)**
+
+```js
+`Hola mundo`
+```
+
+Explicación:
+Las comillas inclinadas `` ` `` NO son las mismas que `" "` o `' '`.
+
+---
+
+#### **B. Insertar valores con `${ }`**
+
+```js
+const nombre = "Ana";
+const saludo = `Hola, ${nombre}`;
+console.log(saludo);
+```
+
+---
+
+#### **C. Combinar varios valores**
+
+```js
+const nombre = "Luis";
+const apellido = "Martínez";
+
+const frase = `Tu nombre completo es ${nombre} ${apellido}.`;
+console.log(frase);
+```
+
+---
+
+### **4. Por Qué Son Útiles (Explicado Simple)**
+
+* Permiten escribir frases largas sin romperlas.
+* Son más fáciles de leer.
+* Te dejan mezclar texto + valores sin complicaciones.
+
+---
+
+### **5. Dónde y Cómo Probarlo**
+
+1. Abrí tu navegador.
+2. Presioná **F12**.
+3. Entrá a la pestaña **Consola**.
+4. Pegá los ejemplos y mirá el resultado.
+
+---
+
+### **6. Mini-Ejercicios para Practicar**
+
+1. Escribí una template string con tu nombre y edad.
+2. Creá una frase usando tu comida favorita.
+3. Mostrá un mensaje como:
+
+   ```js
+   `Hola ${nombre}, hoy es ${dia}`
+   ```
+
+   completando los valores.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe entender perfectamente:
+
+* Qué es una template string.
+* Para qué sirve.
+* Qué significan `` ` `` y `${ }`.
+* Cómo mezclar texto + valores.
+* Cómo probarlo sola en la consola del navegador.
+
+---
+
+# PROMT 20 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia en JavaScript**, trabajando tanto en frontend como backend.
+Tenés experiencia formando a principiantes desde cero, explicando conceptos complejos con ejemplos simples, visuales y totalmente prácticos.
+
+---
+
+## **Tarea**
+
+Explicar **qué es una variable booleana en JavaScript y para qué se usa**, dirigido a una persona que **nunca programó antes**, brindando solo el contexto esencial para comprenderlo.
+
+---
+
+## **Reglas Duras (Obligatorias)**
+
+1. No usar tecnicismos sin explicarlos inmediatamente.
+2. No asumir conocimiento previo sobre programación, variables o tipos de datos.
+3. Usar analogías cotidianas muy claras (sí/no, encendido/apagado).
+4. Cada ejemplo debe ser extremadamente simple y visualizable.
+5. Explicar qué significan las palabras clave `true` y `false`.
+6. Explicar cómo guardar un booleano en una variable.
+7. Mostrar cómo se usa dentro de un `if` con un ejemplo fácil.
+8. Mantener un tono amable, motivador, paciente y super claro.
+9. Incluir mini-ejercicios para practicar.
+10. Invitar a probar todo en la **consola del navegador** (explicar cómo abrirla).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Explicar qué es un valor booleano en lenguaje cotidiano:
+
+> “Un booleano es un tipo de dato que solo puede ser dos cosas: **verdadero** o **falso**. Como responder *sí* o *no*.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Usar una comparación clara, por ejemplo:
+
+> “Un booleano es como un interruptor de luz: solo puede estar **encendido (true)** o **apagado (false)**.”
+
+---
+
+### **3. Ejemplos Muy Simples**
+
+#### **A. Guardar un booleano en una variable**
+
+```js
+let tengoHambre = true;
+let esDeNoche = false;
+```
+
+#### **B. Usarlo dentro de un `if`**
+
+```js
+let tengoFrio = true;
+
+if (tengoFrio) {
+  console.log("Me pongo una chaqueta.");
+}
+```
+
+Explicación simple:
+Si `tengoFrio` es **true**, el mensaje aparece.
+
+---
+
+### **4. Por Qué Son Útiles (Explicación Simple)**
+
+* Permiten tomar decisiones.
+* Sirven para verificar condiciones.
+* Son la base de la lógica en un programa.
+
+Ejemplos humanos:
+
+* ¿Tengo dinero?
+* ¿La puerta está cerrada?
+* ¿Tengo tarea pendiente?
+
+---
+
+### **5. Dónde y Cómo Probarlo**
+
+1. Abrí tu navegador.
+2. Presioná **F12**.
+3. Entrá en **Consola**.
+4. Pegá los ejemplos y mirá qué pasa.
+
+---
+
+### **6. Mini-Ejercicios Simples**
+
+1. Creá una variable booleana que diga si estás cansado.
+2. Hacé un `if` que muestre un mensaje si esa variable es **true**.
+3. Creá una variable booleana que diga si llueve y mostrala en consola.
+
+---
+
+## **Resultado Esperado**
+
+Que la persona entienda:
+
+* Qué es un booleano (verdadero/falso).
+* Cómo se guarda en una variable.
+* Cómo usarlo dentro de una condición `if`.
+* Para qué sirve en la vida real y en el código.
+* Cómo probarlo de inmediato en su navegador.
+
+
+
+---
+
+# PROMT 21 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, explicando conceptos técnicos con claridad, ejemplos visuales y un enfoque totalmente práctico.
+
+---
+
+## **Tarea**
+
+Explicar **cómo recorrer un array en JavaScript y leer cada elemento**, dirigido a una persona que **nunca programó antes**, usando solo lo esencial para que lo entienda con facilidad.
+
+---
+
+## **Reglas Duras (Obligatorias)**
+
+1. No usar tecnicismos sin explicarlos inmediatamente.
+2. No asumir que la persona sabe qué es un array, un bucle o un índice.
+3. Cada ejemplo debe ser muy simple, visualizable y cotidiano.
+4. Usar analogías claras (lista de compras, lista de tareas, fila de personas).
+5. Explicar paso a paso qué hace `array.length`.
+6. Explicar qué es un índice y por qué empieza en 0.
+7. Mostrar cómo recorrer un array con:
+
+   * un `for` tradicional
+   * un `for...of`
+8. Mantener un tono súper claro, amigable y motivador.
+9. Incluir mini-ejercicios fáciles.
+10. Invitar a probar todo en la consola del navegador (e indicar cómo abrirla).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Explicar qué es un array usando una analogía real:
+
+> “Un array es como una lista de compras donde cada cosa tiene un lugar. Podemos revisar cada elemento uno por uno.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Ejemplo propuesto:
+
+> “Imaginate una fila de casilleros. Cada casillero tiene un número y adentro guarda algo: fruta, un color, una palabra. Recorrer un array es abrir cada casillero para ver qué tiene.”
+
+---
+
+### **3. Ejemplos Muy Simples de Arrays**
+
+```js
+let frutas = ["Manzana", "Banana", "Pera"];
+let colores = ["Rojo", "Azul", "Verde"];
+let numeros = [1, 2, 3, 4];
+```
+
+---
+
+### **4. Explicar `array.length` en Palabras Simples**
+
+> “`array.length` es la cantidad de elementos en la lista.”
+
+Ejemplo:
+
+```js
+console.log(frutas.length); // 3
+```
+
+---
+
+### **5. Recorrer un Array con un Bucle `for`**
+
+Explicación sencilla:
+
+* `i = 0` → empezamos por el primer elemento
+* `i < array.length` → seguimos hasta el final
+* `i++` → avanzamos uno por uno
+
+```js
+for (let i = 0; i < frutas.length; i++) {
+  console.log(frutas[i]);
+}
+```
+
+---
+
+### **6. Recorrer un Array con `for...of` (más simple)**
+
+```js
+for (let fruta of frutas) {
+  console.log(fruta);
+}
+```
+
+Explicación:
+
+> “En lugar de usar números, `for...of` toma cada elemento directamente.”
+
+---
+
+### **7. Mini-Ejercicios para Practicar**
+
+1. Creá una lista de 4 colores y mostralos uno por uno con un `for`.
+2. Creá una lista de tus comidas favoritas y recorréla con `for...of`.
+3. Mostrá cuántos elementos tiene tu array usando `.length`.
+
+---
+
+### **8. Cómo Probar el Código**
+
+Indicar brevemente:
+
+1. Abrí el navegador.
+2. Tocá **F12**.
+3. Elegí la pestaña **Consola**.
+4. Pegá los ejemplos y mirá qué sucede.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe comprender:
+
+* Qué es un array y cómo imaginarlo.
+* Qué significa recorrerlo.
+* Cómo usar un `for` y un `for...of` para leer cada elemento.
+* Qué hace `.length`.
+* Cómo probarlo por sí misma de inmediato.
+
+
+---
+
+# PROMT 22 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, con experiencia en frontend y backend.
+Tenés una larga trayectoria enseñando a principiantes desde cero, explicando conceptos técnicos con claridad, ejemplos visuales y un enfoque totalmente práctico.
+
+---
+
+## **Tarea**
+
+Explicar **qué es una expresión matemática en JavaScript y cómo se evalúa**, dirigido a una persona que **nunca programó antes**, usando solo el contexto esencial y palabras simples.
+
+---
+
+## **Reglas Duras (Obligatorias)**
+
+1. No usar tecnicismos sin explicarlos.
+2. No asumir que la persona sabe sumar o restar con código.
+3. Cada ejemplo debe ser **muy simple, visualizable y cotidiano**.
+4. Explicar paso a paso cómo JavaScript hace el cálculo.
+5. Explicar de forma clara cada símbolo matemático que aparezca.
+6. Usar analogías con la vida real (calculadora, precios del supermercado, cantidades).
+7. Mostrar cómo guardar el resultado en una variable.
+8. Incluir mini-ejercicios extremadamente fáciles.
+9. Indicar cómo abrir la consola del navegador para probar.
+10. Mantener un tono amable, claro, paciente y motivador.
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Usar una analogía cotidiana:
+
+> "Una expresión matemática en JavaScript es igual que usar una calculadora: escribís la operación y el resultado aparece."
+
+---
+
+### **2. Ejemplos Matemáticos Muy Simples**
+
+```js
+2 + 3
+10 - 4
+5 * 2
+8 / 2
+```
+
+Explicación visual:
+
+* `+` significa sumar
+* `-` significa restar
+* `*` significa multiplicar
+* `/` significa dividir
+
+---
+
+### **3. Cómo Evalúa JavaScript Paso a Paso**
+
+Ejemplo:
+
+```js
+let resultado = 2 + 3;
+console.log(resultado); // 5
+```
+
+Explicación:
+
+> “JavaScript lee la operación de izquierda a derecha, hace el cálculo y guarda el resultado.”
+
+---
+
+### **4. Uso de Paréntesis para Ordenar Operaciones**
+
+```js
+let total = (2 + 3) * 2;
+```
+
+Analogía:
+
+> “Los paréntesis funcionan igual que en matemáticas: primero resolvés lo que está adentro.”
+
+---
+
+### **5. Cómo Guardar el Resultado en una Variable**
+
+```js
+let precio = 10 + 5; 
+console.log(precio); // 15
+```
+
+Explicación en lenguaje simple:
+
+> “La variable es como una cajita donde guardamos el resultado para usarlo después.”
+
+---
+
+### **6. Ejemplos Cotidianos**
+
+* Sumar precios de productos.
+* Restar lo que gastaste.
+* Multiplicar unidades.
+* Dividir por personas.
+
+Ejemplo:
+
+```js
+let precioUnidad = 2000;
+let cantidad = 3;
+let total = precioUnidad * cantidad;
+
+console.log(total); // 6000
+```
+
+---
+
+### **7. Mini-Ejercicios Sencillos**
+
+1. Calculá `4 + 6` en la consola.
+2. Guardá en una variable el resultado de `10 - 3`.
+3. Multiplicá 7 × 2 y mostrala con `console.log`.
+4. Probá una operación con paréntesis: `(5 + 5) / 2`.
+
+---
+
+### **8. Cómo Probarlo en la Consola del Navegador**
+
+Explicación obligatoria:
+
+1. Abrí tu navegador.
+2. Presioná **F12**.
+3. Elegí la pestaña **Consola**.
+4. Escribí cualquier operación matemática.
+5. Presioná **Enter** y mirá el resultado.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe entender:
+
+* Qué es una expresión matemática en JavaScript.
+* Qué significan los símbolos básicos.
+* Cómo calcula JavaScript paso a paso.
+* Cómo guardar y mostrar resultados.
+* Cómo practicar por sí misma en la consola.
+
+
+---
+
+# PROMT 23
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando en frontend y backend.
+Tenés una larga trayectoria enseñando a principiantes desde cero, explicando conceptos técnicos con ejemplos claros, visuales y totalmente prácticos.
+
+---
+
+## **Tarea**
+
+Explicar **qué es una condición múltiple en JavaScript y cómo combinar varias comparaciones**, dirigido a una persona que **nunca programó antes**, usando palabras simples y ejemplos fáciles de visualizar.
+
+---
+
+## **Reglas Duras (Obligatorias)**
+
+1. No usar tecnicismos sin explicarlos.
+2. No asumir que la persona entiende aún qué es un operador lógico.
+3. Usar **analogías cotidianas** para cada concepto.
+4. Explicar cada símbolo básico:
+
+   * `&&` (y)
+   * `||` (o)
+   * `>`
+   * `<`
+   * `===`
+5. Cada ejemplo debe ser muy simple y visualizable.
+6. Mostrar cómo combinar condiciones dentro de un mismo `if`.
+7. Incluir mini-ejercicios fáciles para practicar.
+8. Indicar cómo abrir la consola del navegador para probar.
+9. Mantener siempre un tono amable, claro y motivador.
+10. No avanzar a temas avanzados (short-circuiting, truthy/falsy, operadores bitwise).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Usar una metáfora cotidiana:
+
+> “Una condición múltiple es como tomar una decisión usando **más de una regla al mismo tiempo**, igual que en la vida real cuando decís: ‘salgo *si* NO llueve *y* tengo tiempo libre’.”
+
+---
+
+### **2. Explicación de los Operadores Lógicos**
+
+#### **`&&` significa “y”**
+
+> “Todo tiene que ser verdadero para que funcione.”
+
+#### **`||` significa “o”**
+
+> “Con que una sola condición sea verdadera, alcanza.”
+
+---
+
+### **3. Ejemplos Muy Simples**
+
+#### **Ejemplo con `&&` (y):**
+
+```js
+let edad = 20;
+let tieneDocumento = true;
+
+if (edad >= 18 && tieneDocumento === true) {
+  console.log("Puede ingresar");
+}
+```
+
+#### **Ejemplo con `||` (o):**
+
+```js
+let clima = "soleado";
+let tengoParaguas = true;
+
+if (clima === "soleado" || tengoParaguas === true) {
+  console.log("Puedo salir sin problema");
+}
+```
+
+---
+
+### **4. Ejemplos Cotidianos y Visuales**
+
+* Para desbloquear un celular necesitas: **huella** Y **pantalla encendida**.
+* Para ver una película puedes: tener **cuenta activa** O tener **periodo de prueba**.
+* Para entrar a un juego: edad **mayor o igual a 13** Y permiso de padre/madre.
+
+---
+
+### **5. Cómo Combinar Varias Comparaciones en un `if`**
+
+```js
+let edad = 25;
+let saldo = 10000;
+
+if (edad > 18 && saldo >= 5000) {
+  console.log("Podés comprar el producto");
+}
+```
+
+Explicación simple:
+
+> “JavaScript revisa ambas condiciones. Si las dos son verdaderas, entra al `if`.”
+
+---
+
+### **6. Mini-Ejercicios Simples para Practicar**
+
+1. Probá en la consola:
+
+   ```js
+   let edad = 15;
+   let permiso = true;
+   edad >= 18 || permiso === true
+   ```
+2. Escribí una condición que diga:
+   “Puedo comer postre si comí comida saludable **O** hice ejercicio.”
+3. Escribí otra que diga:
+   “Puedo jugar si terminé la tarea **Y** ordené mi cuarto.”
+
+---
+
+### **7. Cómo Probarlo en la Consola del Navegador**
+
+1. Abrí el navegador.
+2. Presioná **F12**.
+3. Andá a la pestaña **Consola**.
+4. Copiá los ejemplos y presioná Enter.
+5. Mirá el resultado.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe comprender:
+
+* Qué es una condición múltiple.
+* Qué significan `&&` y `||`.
+* Cómo combinar varias comparaciones dentro de un `if`.
+* Cómo usarlo con situaciones reales.
+* Cómo practicar por sí misma en la consola.
+
+---
+
+# PROMT 24
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional trabajando con JavaScript**, tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, explicando conceptos de forma clara, visual, sencilla y totalmente práctica.
+
+---
+
+## **Tarea**
+
+Explicar **qué es un parámetro en una función de JavaScript y cómo pasar valores**, dirigido a una persona que **nunca programó antes**, usando ejemplos simples y cotidianos.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No uses tecnicismos sin explicarlos inmediatamente.
+2. Cada ejemplo debe ser muy simple y visualizable.
+3. Usá analogías de la vida real (recetas, espacios en blanco, instrucciones).
+4. Explicá de forma clara la diferencia entre **parámetro** y **argumento**.
+5. Explicá cada símbolo básico:
+
+   * `function`
+   * `()`
+   * comas `,`
+   * llaves `{}`
+   * `return`
+6. Mostrá cómo se envían valores a una función.
+7. Mantené un tono amable, paciente y motivador.
+8. Incluí mini-ejercicios para practicar.
+9. Indicá cómo probar los ejemplos en la consola del navegador.
+10. No avances a temas avanzados (rest parameters, callbacks, this).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple**
+
+Explicar qué es un parámetro usando lenguaje cotidiano:
+
+> “Un parámetro es como un espacio en blanco dentro de una receta: cuando preparás la receta, rellenás esos espacios con ingredientes reales.”
+
+---
+
+### **2. Parámetro vs Argumento**
+
+Explicación clara:
+
+* **Parámetro:** el *nombre* que aparece cuando definís la función.
+* **Argumento:** el *valor real* que enviás al llamar la función.
+
+Ejemplo:
+
+```js
+function saludar(nombre) {   
+  console.log("Hola " + nombre);
+}
+
+saludar("Felipe");          
+```
+
+---
+
+### **3. Ejemplos Muy Simples**
+
+#### **Ejemplo 1: función que saluda**
+
+```js
+function saludar(nombre) {
+  console.log("Hola " + nombre);
+}
+
+saludar("Ana");
+saludar("Carlos");
+```
+
+#### **Ejemplo 2: suma usando dos parámetros**
+
+```js
+function sumar(a, b) {
+  return a + b;   // return = devolver un valor
+}
+
+console.log(sumar(3, 7));
+```
+
+---
+
+### **4. Explicación de `return` (en lenguaje simple)**
+
+> “`return` sirve para que la función nos dé un resultado que podemos usar después.”
+
+---
+
+### **5. Mini-Ejercicios muy simples**
+
+1. Crear una función que reciba un nombre y diga:
+   `console.log("Bienvenido, " + nombre)`
+2. Hacer una función que reciba dos números y devuelva el doble de su suma.
+3. Crear una función que reciba un color y muestre un mensaje:
+   `"Tu color favorito es: <color>"`
+
+---
+
+### **6. Cómo probarlo en la consola del navegador**
+
+1. Abrí tu navegador.
+2. Presioná **F12**.
+3. Entrá a la pestaña **Consola**.
+4. Pegá los ejemplos y presioná Enter.
+
+---
+
+## **Resultado Esperado**
+
+La persona deberá entender con claridad:
+
+* Qué es un parámetro y para qué sirve.
+* Qué es un argumento y en qué se diferencia del parámetro.
+* Cómo funcionan funciones que reciben valores.
+* Cómo usar `return` de manera simple.
+* Cómo probarlo sola en la consola.
+
+
+---
+
+# PROMT 25 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, explicando conceptos técnicos con claridad, ejemplos visuales y un enfoque totalmente práctico.
+
+---
+
+## **Tarea**
+
+Explicar **qué es un operador de asignación en JavaScript y para qué sirve el símbolo “=”**, dirigido a una persona que **nunca programó antes**, ofreciendo solo el contexto esencial para entenderlo.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No uses tecnicismos sin explicarlos inmediatamente.
+2. No asumas ningún conocimiento previo del usuario.
+3. Usá ejemplos extremadamente simples y cotidianos.
+4. Explicá siempre que **“=” NO significa igualdad matemática**, sino **guardar un valor**.
+5. Explicá cada símbolo básico que aparezca.
+6. Mostrá ejemplos con números, textos y reasignaciones.
+7. Mantené un tono amable, claro, paciente y motivador.
+8. Agregá mini-ejercicios para practicar.
+9. Indicá cómo probar el código en la consola del navegador.
+10. No avances a operadores complejos (`+=`, `-=`, `*=`, etc.).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple con Analogía**
+
+Comparar el operador “=” con algo cotidiano, por ejemplo:
+
+> “Es como ponerle una etiqueta a una caja y guardar algo dentro. La caja es la variable, el contenido es el valor.”
+
+---
+
+### **2. ¿Qué significa realmente el símbolo “=” en JavaScript?**
+
+Explicación clara y directa:
+
+* **NO significa “igual a” como en matemáticas.**
+* Significa **“guardar este valor aquí”** o **“asignar este contenido a esta variable”**.
+
+Ejemplo:
+
+```js
+let edad = 15;  
+```
+
+---
+
+### **3. Ejemplos Muy Simples**
+
+#### **Ejemplo 1: asignar un número**
+
+```js
+let numero = 10;
+```
+
+#### **Ejemplo 2: asignar un texto**
+
+```js
+let nombre = "Felipe";
+```
+
+#### **Ejemplo 3: cambiar (reasignar) el valor**
+
+```js
+let color = "Rojo";
+color = "Azul";   // se reemplaza el contenido de la variable
+```
+
+---
+
+### **4. Explicación Paso a Paso**
+
+Describir en lenguaje simple:
+
+* Qué es una variable.
+* Qué significa “asignar”.
+* Qué ocurre cuando reasignás un valor.
+
+---
+
+### **5. Mini-Ejercicios (súper fáciles)**
+
+1. Crear una variable `ciudad` y asignarle el nombre de tu ciudad.
+2. Crear una variable `precio` con un número.
+3. Cambiar el valor de `precio` por otro número.
+4. Crear una variable llamada `mensaje` con un texto que te guste.
+
+---
+
+### **6. Cómo Probar los Ejemplos**
+
+Instrucciones claras:
+
+1. Abrí tu navegador.
+2. Presioná **F12**.
+3. Seleccioná la pestaña **Consola**.
+4. Pegá los ejemplos y presioná Enter.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe comprender con total claridad:
+
+* Qué es un operador de asignación.
+* Qué significa “=” en JavaScript.
+* Cómo guardar valores en variables.
+* Cómo cambiar esos valores.
+* Cómo probarlo por sí misma.
+---
+
+# PROMT 26 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes, explicando conceptos técnicos de forma clara, visual y totalmente práctica.
+
+---
+
+## **Tarea**
+
+Explicar **cómo usar la consola del navegador y `console.log` para ver resultados**, dirigido a una persona que **nunca programó antes**, ofreciendo solo el contexto esencial y sin tecnicismos innecesarios.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No uses tecnicismos sin explicarlos inmediatamente.
+2. No asumas ningún conocimiento previo del usuario.
+3. Explicá con extremo detalle cómo abrir la consola.
+4. Usá ejemplos sencillos con `console.log()` y variables.
+5. Aclarar siempre que `console.log` **no cambia la página**, solo muestra información.
+6. Explicar que los errores aparecen en rojo y ayudan a entender qué salió mal.
+7. Mantené un tono cercano, motivador y muy claro.
+8. Incluí mini-ejercicios para que la persona practique.
+9. No avances a debugging avanzado (breakpoints, sources, performance, network, etc.).
+10. Usá analogías fácilmente visualizables.
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple con Analogía**
+
+Ejemplo sugerido:
+
+> “La consola es como un cuaderno donde el programa te deja mensajes.
+> `console.log` es como escribir una nota en ese cuaderno para ver qué está pasando.”
+
+---
+
+### **2. Cómo Abrir la Consola Paso a Paso**
+
+Debe incluir instrucciones claras:
+
+* **Método 1:** Presionar **F12**.
+* **Método 2:** Clic derecho → **Inspeccionar** → pestaña **Consola**.
+* **Método 3:** Ctrl + Shift + I (Windows) / Cmd + Option + I (Mac).
+
+Explicar qué está viendo el usuario.
+
+---
+
+### **3. Primeros Ejemplos con `console.log()`**
+
+Ejemplo 1:
+
+```js
+console.log("Hola, mundo");
+```
+
+Ejemplo 2 con variables:
+
+```js
+let nombre = "Felipe";
+console.log(nombre);
+```
+
+---
+
+### **4. ¿Para qué sirve `console.log`? (Explicación Simple)**
+
+* Para ver valores.
+* Para entender qué hace el programa.
+* Para verificar si algo funciona.
+* Para descubrir errores.
+
+Aclaración importante:
+
+> `console.log` **NO cambia la página**, solo muestra información en la consola.
+
+---
+
+### **5. Ver Errores en la Consola**
+
+Explicar que:
+
+* Los errores salen **en rojo**.
+* Suelen indicar qué salió mal.
+* Son normales cuando estás aprendiendo.
+
+Ejemplo simple:
+
+```js
+console.log(saludo);
+```
+
+Sin haber creado la variable → mostrará un error.
+
+---
+
+### **6. Mini-Ejercicios para Practicar**
+
+Muy simples para principiantes:
+
+1. Escribí tu nombre usando `console.log()`.
+2. Creá una variable `edad` y mostrala en consola.
+3. Mostrá dos mensajes distintos, uno arriba y otro abajo.
+4. Escribí algo mal a propósito para ver un error.
+
+---
+
+### **7. Cómo Probar Todo**
+
+Explicar:
+
+1. Abrí la consola.
+2. Pegá el código.
+3. Presioná Enter.
+4. Mirá el resultado o error.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe comprender claramente:
+
+* Qué es la consola.
+* Para qué sirve.
+* Cómo abrirla.
+* Cómo usar `console.log`.
+* Cómo ver valores y errores.
+* Cómo probar todo por sí sola.
+---
+
+# PROMT 27 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
+Tenés mucha experiencia enseñando a principiantes desde cero, usando explicaciones claras, visuales y totalmente prácticas.
+
+---
+
+## **Tarea**
+
+Explicar **cuáles son los tipos de datos básicos en JavaScript y para qué sirve cada uno**, dirigido a una persona que **nunca programó antes**, entregando únicamente el contexto esencial.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No usar tecnicismos sin explicarlos inmediatamente.
+2. No asumir conocimiento previo del usuario.
+3. Usar **analogías cotidianas** para cada tipo de dato.
+4. Mostrar **ejemplos extremadamente simples**.
+5. Explicar `typeof` en palabras muy básicas.
+6. Mantener un tono amable, claro y motivador.
+7. Incluir **mini-ejercicios** para que la persona practique.
+8. Evitar temas avanzados (symbol, bigint, coerción, estructuras complejas).
+9. Cada símbolo o palabra clave debe tener una explicación.
+10. Invitar siempre al usuario a probar todo en la consola del navegador.
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Describir qué significa “tipo de dato” usando una metáfora:
+
+> “Igual que en la vida real guardás cosas distintas (números, palabras, respuestas sí/no), JavaScript también necesita saber qué tipo de cosa estás guardando.”
+
+---
+
+### **2. Lista de Tipos de Datos Básicos (con analogía + ejemplo)**
+
+#### **1. Números**
+
+* **Analogía:** edades, precios, cantidades.
+* **Ejemplo:**
+
+```js
+let edad = 18;
+```
+
+#### **2. Strings (cadenas de texto)**
+
+* **Analogía:** nombres, frases, cualquier texto entre comillas.
+* **Ejemplo:**
+
+```js
+let nombre = "Felipe";
+```
+
+#### **3. Booleanos**
+
+* **Analogía:** respuestas de sí/no.
+* **Ejemplo:**
+
+```js
+let esMayor = true;
+```
+
+#### **4. null**
+
+* **Analogía:** una caja vacía a propósito.
+* **Ejemplo:**
+
+```js
+let mascota = null;
+```
+
+#### **5. undefined**
+
+* **Analogía:** una caja que aún no se ha llenado.
+* **Ejemplo:**
+
+```js
+let dato;
+```
+
+---
+
+### **3. Explicación de `typeof` (muy básica)**
+
+Ejemplo:
+
+```js
+typeof 10;       
+typeof "Hola";    
+typeof true;     
+typeof null;      
+typeof undefined;
+```
+
+Explicar que `typeof` sirve para poder ver qué tipo de dato estamos usando.
+
+---
+
+### **4. Ejemplos Reales y Simples**
+
+1. **Guardar un precio y mostrarlo:**
+
+```js
+let precio = 5000;
+console.log(precio);
+```
+
+2. **Almacenar un nombre y usarlo:**
+
+```js
+let nombre = "Ana";
+console.log("Hola " + nombre);
+```
+
+3. **Usar un booleano en una condición:**
+
+```js
+let tieneDinero = true;
+
+if (tieneDinero) {
+  console.log("Podés comprarlo");
+}
+```
+
+---
+
+### **5. Mini-Ejercicios para Practicar**
+
+1. Creá una variable con tu **edad** y mostrá el tipo de dato.
+2. Guardá tu **nombre** en un string y mostralo.
+3. Creá un booleano que diga si te gusta programar.
+4. Probá escribir solo:
+
+```js
+typeof null
+```
+
+y mirá qué pasa.
+5. Creá una variable sin valor y verificá su tipo.
+
+---
+
+### **6. Cómo Probar Todo**
+
+Explicar paso a paso:
+
+1. Abrí tu navegador.
+2. Presioná **F12** o clic derecho → **Inspeccionar**.
+3. Andá a la pestaña **Consola**.
+4. Probá cada ejemplo pegándolo y presionando Enter.
+
+---
+
+## **Resultado Esperado**
+
+La persona debe comprender claramente:
+
+* Qué es un tipo de dato.
+* Cuáles son los tipos básicos de JavaScript.
+* Para qué sirve cada uno.
+* Cómo ver el tipo de un valor con `typeof`.
+* Cómo practicar todo en la consola del navegador.
+
+---
+
+# PROMT 28 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional usando JavaScript**, tanto en frontend como backend.
+Tenés amplia experiencia enseñando a principiantes desde cero, explicando conceptos técnicos de forma **clara, visual y totalmente práctica**.
+
+---
+
+## **Tarea**
+
+Explicar **qué es el operador módulo (`%`) en JavaScript y para qué se usa**, dirigido a una persona que **nunca programó antes**, brindando solo el contexto esencial para entenderlo.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No usar tecnicismos sin explicarlos.
+2. No asumir conocimiento previo.
+3. Usar **analogías cotidianas** para explicar el concepto.
+4. Mantener los ejemplos **muy simples y visuales**.
+5. Explicar siempre qué significa cada símbolo.
+6. Incluir mini-ejercicios para practicar.
+7. Mantener un tono motivador, amable y claro.
+8. Invitar al usuario a probar todo en la consola del navegador.
+9. No avanzar a temas avanzados como módulo con negativos, precedencia, etc.
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Describir el operador módulo de forma cotidiana:
+
+> “El operador `%` te dice **cuánto sobra** después de dividir un número entre otro.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Ejemplo:
+
+> “Si tenés **5 caramelos** y los repartís entre **2 personas**, cada persona recibe 2 caramelos y **sobra 1**. Ese 1 es el módulo.”
+
+---
+
+### **3. Ejemplos Prácticos Muy Simples**
+
+#### **Ejemplo 1**
+
+```js
+5 % 2  
+```
+
+#### **Ejemplo 2**
+
+```js
+10 % 3 
+```
+
+#### **Ejemplo 3**
+
+```js
+8 % 4 
+```
+
+#### **Explicar cómo se lee**
+
+* `%` significa “el sobrante después de dividir”.
+* `a % b` significa: *dividí a entre b y decime cuánto sobra*.
+
+---
+
+### **4. Uso Común: Saber si un número es par o impar**
+
+```js
+let numero = 7;
+
+if (numero % 2 === 0) {
+  console.log("Es par");
+} else {
+  console.log("Es impar");
+}
+```
+
+Explicación simple:
+
+* Si `numero % 2` da **0**, es par.
+* Si da **1**, es impar.
+
+---
+
+### **5. Mini-Ejercicios para Practicar**
+
+1. Probá en la consola:
+
+   * `12 % 5`
+   * `20 % 4`
+   * `9 % 2`
+
+2. Creá una variable con tu edad y averiguá si es par o impar.
+
+3. Inventá 3 divisiones y tratá de adivinar el resultado antes de verlo en pantalla.
+
+---
+
+### **6. Cómo Probarlo**
+
+1. Abrí tu navegador.
+2. Presioná **F12** o clic derecho → **Inspeccionar**.
+3. Entrá a la pestaña **Consola**.
+4. Pegá los ejemplos y presioná Enter.
+
+---
+
+## **Resultado Esperado**
+
+El usuario debe terminar entendiendo:
+
+* Qué es el operador módulo.
+* Para qué sirve.
+* Cómo usarlo en ejemplos reales.
+* Cómo probarlo por sí mismo.
+---
+
+# PROMT 29 
+
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional usando JavaScript**, tanto en frontend como en backend.
+Tenés amplia experiencia enseñando a principiantes, explicando conceptos técnicos de forma **clara, visual y totalmente práctica**.
+
+---
+
+## **Tarea**
+
+Explicar **qué es una sentencia `switch` en JavaScript y cuándo usarla**, dirigido a una persona que **nunca programó antes**, ofreciendo solo el contexto esencial.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No usar tecnicismos sin explicarlos.
+2. No asumir conocimiento previo.
+3. Usar **analogías cotidianas** para explicar el concepto.
+4. Mantener ejemplos **muy simples y visuales**.
+5. Explicar cada símbolo: `switch`, `case`, `break`, `default`, `{}`.
+6. Incluir mini-ejercicios para practicar.
+7. Mantener un tono amable, motivador y claro.
+8. Invitar al usuario a probar los ejemplos en la consola del navegador.
+9. No avanzar a temas avanzados (fallthrough, patterns, matching).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. Explicación Simple del Concepto**
+
+Describir `switch` en palabras sencillas:
+
+> “La sentencia `switch` sirve para tomar una decisión entre **varias opciones posibles**. Es como decir: ‘si pasa esto, hacé tal cosa; si pasa aquello, hacé otra’.”
+
+---
+
+### **2. Analogía Cotidiana**
+
+Ejemplo de la vida real:
+
+> “Imaginá que estás frente a un **menú de opciones**, como el menú de un cajero automático:
+>
+> * 1: retirar dinero
+> * 2: consultar saldo
+> * 3: transferencias
+>
+> El `switch` funciona igual: elegís un número y la acción cambia según tu elección.”
+
+---
+
+### **3. Estructura Básica (explicada paso a paso)**
+
+```js
+switch (valor) {
+  case 'A':
+    console.log("Elegiste A");
+    break;
+
+  case 'B':
+    console.log("Elegiste B");
+    break;
+
+  default:
+    console.log("Opción no reconocida");
+}
+```
+
+**Explicación clara de cada parte:**
+
+* **`switch (valor)`** → indica qué cosa vas a evaluar.
+* **`case`** → cada opción posible.
+* **`break`** → detiene el `switch` para que no siga ejecutando otros casos.
+* **`default`** → lo que pasa si ninguna opción coincide.
+* **`{}`** → agrupan todo el bloque del `switch`.
+
+---
+
+### **4. Ejemplos Prácticos Muy Simples**
+
+#### **Ejemplo 1: Día de la semana**
+
+```js
+let dia = "lunes";
+
+switch (dia) {
+  case "lunes":
+    console.log("Comienzo de semana");
+    break;
+
+  case "viernes":
+    console.log("Casi fin de semana");
+    break;
+
+  default:
+    console.log("Día normal");
+}
+```
+
+#### **Ejemplo 2: Calificación**
+
+```js
+let nota = 5;
+
+switch (nota) {
+  case 5:
+    console.log("Excelente");
+    break;
+  case 3:
+    console.log("Aceptable");
+    break;
+  case 1:
+    console.log("Insuficiente");
+    break;
+  default:
+    console.log("Nota no válida");
+}
+```
+
+---
+
+### **5. ¿Cuándo usar `switch` en lugar de varios `if`?**
+
+Usá `switch` cuando:
+
+* Tenés **muchas condiciones** distintas.
+* Todas las comparaciones se hacen **sobre un mismo valor**.
+* Querés un código más limpio y fácil de leer.
+
+Ejemplo:
+ bueno → elegir según número del menú
+ bueno → elegir según día
+ malo → hacer comparaciones complicadas o cálculos
+
+---
+
+### **6. Mini-Ejercicios para Practicar**
+
+1. Creá un `switch` que imprima un mensaje según la fruta elegida:
+
+   * manzana
+   * banana
+   * naranja
+
+2. Hacé un `switch` para convertir un número del 1 al 3 en un texto:
+
+   * 1 → “Rojo”
+   * 2 → “Azul”
+   * 3 → “Verde”
+
+3. Probá que pasa si elegís un valor que no está en ningún `case`.
+
+---
+
+### **7. Cómo Probarlo**
+
+1. Abrí el navegador.
+2. Presioná **F12** o clic derecho → **Inspeccionar**.
+3. Entrá a la pestaña **Consola**.
+4. Copiá los ejemplos y probalos.
+
+---
+
+## **Resultado Esperado**
+
+Que el usuario entienda:
+
+* Qué es `switch`.
+* Para qué sirve.
+* Por qué es útil cuando hay varias opciones.
+* Cómo escribirlo y probarlo por sí mismo.
+
+---
+
+# PROMT 30 
+  
+## **Rol**
+
+Actuá como un **Desarrollador Senior con más de 10 años de experiencia usando JavaScript**, tanto en frontend como backend.
+Tenés una amplia trayectoria enseñando a principiantes, explicando conceptos técnicos con **claridad, ejemplos visuales y enfoque 100% práctico**.
+
+---
+
+## **Tarea**
+
+Explicar **qué es JSON en JavaScript y cómo convertir texto en un objeto y viceversa**, dirigido a una persona que **nunca programó antes**, usando explicaciones simples, visuales y sin tecnicismos innecesarios.
+
+---
+
+## **Reglas Duras (obligatorias)**
+
+1. No usar tecnicismos sin explicarlos.
+2. No asumir que la persona entiende qué es un “objeto”, “string” o “dato”.
+3. Usar siempre analogías cotidianas.
+4. Mantener ejemplos extremadamente simples.
+5. Explicar inmediatamente cada símbolo: `{}`, `:`, `""`, `JSON.parse`, `JSON.stringify`.
+6. Incluir mini-ejercicios muy simples.
+7. Mantener un tono amable, claro y motivador.
+8. Indicar cómo probar los ejemplos en la consola del navegador.
+9. No avanzar a temas avanzados (reviver, replacer, ciclos, API).
+
+---
+
+## **Estructura Obligatoria de la Respuesta**
+
+---
+
+### **1. ¿Qué es JSON? (Explicación Simple)**
+
+Explicación sin tecnicismos:
+
+> JSON es una forma de **escribir información en texto**, de manera ordenada y fácil de leer.
+> Es como escribir los datos de una persona en un papel: nombre, edad, ciudad, etc.
+
+---
+
+### **2. Analogía Cotidiana**
+
+Presentar JSON como una ficha o formulario:
+
+> Imaginá JSON como una **ficha de datos** de alguien.
+> Todo está escrito como texto, pero sigue una estructura clara:
+>
+> * un nombre
+> * un valor
+>
+> Ejemplo de ficha:
+>
+> * Nombre: Ana
+> * Edad: 20
+
+Eso mismo, pero escrito en formato JSON, queda así:
+
+```json
+{ "nombre": "Ana", "edad": 20 }
+```
+
+---
+
+### **3. JSON en JavaScript (Explicado con Símbolos Claros)**
+
+#### **Estructura del JSON:**
+
+* `{ }` → indican que es un objeto de datos.
+* `"nombre"` → siempre entre comillas porque es texto.
+* `:` → separa el nombre del valor.
+* `"Ana"` → valores en texto también llevan comillas.
+* `20` → los números no llevan comillas.
+
+---
+
+### **4. Convertir JSON → Objeto (JavaScript lo puede usar)**
+
+Para pasar de **texto JSON** a un **objeto real que JavaScript entiende**, se usa:
+
+```js
+JSON.parse(textoJSON)
+```
+
+Ejemplo:
+
+```js
+let texto = '{ "nombre": "Ana", "edad": 20 }';
+
+let persona = JSON.parse(texto);
+
+console.log(persona.nombre); // Ana
+console.log(persona.edad);   // 20
+```
+
+---
+
+### **5. Convertir Objeto → JSON (Texto para guardar o enviar)**
+
+Para pasar de un **objeto JavaScript** a **texto JSON**, se usa:
+
+```js
+JSON.stringify(objeto)
+```
+
+Ejemplo:
+
+```js
+let persona = { nombre: "Ana", edad: 20 };
+
+let textoJSON = JSON.stringify(persona);
+
+console.log(textoJSON);
+// {"nombre":"Ana","edad":20}
+```
+
+---
+
+### **6. Cuándo se usa JSON (explicado simple)**
+
+JSON se usa cuando querés:
+
+* Guardar datos como texto.
+* Enviar información entre páginas o servidores.
+* Leer configuraciones o listas de datos.
+* Guardar información en `localStorage`.
+
+No es código: **es texto con formato**.
+
+---
+
+### **7. Mini-Ejercicios para Practicar**
+
+#### **Ejercicio 1: Convertir JSON a objeto**
+
+Tomá este JSON:
+
+```json
+{ "ciudad": "Bogotá", "poblacion": 8000000 }
+```
+
+1. Guardalo en una variable como texto.
+2. Convertirlo con `JSON.parse`.
+3. Mostrá cada dato con `console.log`.
+
+---
+
+#### **Ejercicio 2: Convertir objeto a JSON**
+
+Usá este objeto:
+
+```js
+let product = { nombre: "Laptop", precio: 2500 };
+```
+
+1. Convertirlo con `JSON.stringify`.
+2. Mostrá el resultado.
+
+---
+
+### **8. Cómo Probarlo (Instrucciones Muy Simples)**
+
+1. Abrí tu navegador.
+2. Presioná **F12**.
+3. Hacé clic en la pestaña **Consola**.
+4. Pegá cualquier ejemplo y presioná Enter.
+
+---
+
+## **Resultado Esperado**
+
+Que la persona entienda:
+
+* Qué es JSON (texto con estructura).
+* Para qué sirve.
+* Cómo convertir texto ↔ objeto.
+* Cómo probarlo de inmediato.
+
