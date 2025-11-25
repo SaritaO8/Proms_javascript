@@ -1,4 +1,4 @@
-# Promt 1
+# Prompt 1
 
 ## Rol
 Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, con dominio en desarrollo frontend (React, Vue, Vanilla JS), backend (Node.js) y herramientas modernas.  
@@ -69,7 +69,7 @@ Que la persona:
 - Pueda **verlo funcionando de inmediato** usando la consola.  
 - Deje la explicación sintiéndose capaz de **probar ejemplos por su cuenta**.
 
-# Promt 2
+# Prompt 2
 
 ## Rol
 Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en tecnologías web**, incluyendo HTML, CSS y JavaScript.  
@@ -240,7 +240,7 @@ Que la persona entienda:
 - Cómo ver resultados reales de inmediato en la consola del navegador.  
 ---
 
-# Promt 4 
+# Prompt 4 
 
 ## Rol
 
@@ -358,7 +358,7 @@ La explicación final debe permitir que cualquier persona sin experiencia entien
 
 ---
 
-# **Promt 5 
+# Prompt 5 
 
 ## **Rol**
 
@@ -485,7 +485,7 @@ La persona debe entender:
 
 ---
 
-# **Promt 6**
+# Prompt 6
 
 ## **Rol**
 
@@ -627,7 +627,7 @@ La persona debe poder entender:
 
 ---
 
-# Promt 7 
+# Prompt 7 
 
 ## **Rol**
 
@@ -769,7 +769,7 @@ La persona debe poder entender:
 
 ---
 
-# Promt 8
+# Prompt 8
 
 ## **Rol**
 
@@ -906,7 +906,7 @@ La persona debe entender:
 
 ---
 
-# Promt 9
+# Prompt 9
 
 ## **Rol**
 
@@ -1030,7 +1030,7 @@ La persona debe entender:
 
 ---
 
-# Promt 10
+# Prompt 10
 
 ## **Rol**
 
@@ -1137,7 +1137,7 @@ La persona debe entender:
 
 ---
 
-# Promt 11
+# Prompt 11
 
 ## **Rol**
 
@@ -1261,7 +1261,7 @@ La persona debe entender perfectamente:
 
 ---
 
-# Promt 12
+# Prompt 12
 
 ## **Rol**
 
@@ -1373,7 +1373,7 @@ La persona debe terminar entendiendo:
 
 ---
 
-# Promt 13 
+# Prompt 13 
 ## **Rol**
 
 Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional usando JavaScript** tanto en frontend como backend.
@@ -1514,7 +1514,7 @@ Al finalizar, la persona debe entender:
 * Cómo ver resultados inmediatamente en la consola del navegador.
 ---
 
-# Promt 14
+# Prompt 14
 
 ## **Rol**
 
@@ -1599,7 +1599,7 @@ Ejemplo:
 
 ```js
 let edad = 18;
-let esMayor = edad >= 18; // ¿edad es mayor o igual a 18?
+let esMayor = edad >= 18; 
 console.log(esMayor);
 ```
 
@@ -1610,7 +1610,7 @@ console.log(esMayor);
 ```js
 let temperatura = 30;
 
-if (temperatura > 25) {      // operador >
+if (temperatura > 25) {     
   console.log("Hace calor");
 }
 ```
@@ -1655,7 +1655,7 @@ Luego de la explicación, la persona debe entender:
 
 ---
 
-# Promt 15 
+# Prompt 15 
 ## **Rol**
 
 Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional en JavaScript**, trabajando tanto en frontend como backend.
@@ -1800,7 +1800,7 @@ La persona debe terminar entendiendo:
 
 ---
 
-# Promt 16 
+# Prompt 16 
 
 ## **Rol**
 
@@ -1937,7 +1937,7 @@ La persona debe terminar entendiendo:
 
 ---
 
-# Promt 17
+# Prompt 17
 
 ## **Rol**
 
@@ -2078,7 +2078,7 @@ Después de la explicación, la persona debe entender:
 
 ---
 
-# Promt 18 
+# Prompt 18 
 
 ## **Rol**
 
@@ -2211,7 +2211,7 @@ Después de la explicación, la persona debe entender:
 
 ---
 
-# PROMT 19 
+# PROMPT 19 
 
 ## **Rol**
 
@@ -2339,7 +2339,7 @@ La persona debe entender perfectamente:
 
 ---
 
-# PROMT 20 
+# PROMPT 20 
 
 ## **Rol**
 
@@ -2458,7 +2458,7 @@ Que la persona entienda:
 
 ---
 
-# PROMT 21 
+# PROMPT 21 
 
 ## **Rol**
 
@@ -2595,7 +2595,7 @@ La persona debe comprender:
 
 ---
 
-# PROMT 22 
+# PROMPT 22 
 
 ## **Rol**
 
@@ -2748,7 +2748,7 @@ La persona debe entender:
 
 ---
 
-# PROMT 23
+# PROMPT 23
 
 ## **Rol**
 
@@ -2897,7 +2897,7 @@ La persona debe comprender:
 
 ---
 
-# PROMT 24
+# PROMPT 24
 ## **Rol**
 
 Actuá como un **Desarrollador Senior con más de 10 años de experiencia profesional trabajando con JavaScript**, tanto en frontend como backend.
@@ -2980,8 +2980,7 @@ saludar("Carlos");
 
 ```js
 function sumar(a, b) {
-  return a + b;   // return = devolver un valor
-}
+  return a + b;   
 
 console.log(sumar(3, 7));
 ```
@@ -3026,7 +3025,7 @@ La persona deberá entender con claridad:
 
 ---
 
-# PROMT 25 
+# PROMPT 25 
 
 ## **Rol**
 
@@ -3101,10 +3100,10 @@ let nombre = "Felipe";
 
 ```js
 let color = "Rojo";
-color = "Azul";   // se reemplaza el contenido de la variable
+color = "Azul";   
 ```
 
----
+
 
 ### **4. Explicación Paso a Paso**
 
@@ -3147,7 +3146,7 @@ La persona debe comprender con total claridad:
 * Cómo probarlo por sí misma.
 ---
 
-# PROMT 26 
+# PROMPT 26 
 
 ## **Rol**
 
@@ -3228,7 +3227,7 @@ console.log(nombre);
 
 Aclaración importante:
 
-> `console.log` **NO cambia la página**, solo muestra información en la consola.
+> `console.log` **NO cambia la página**
 
 ---
 
@@ -3284,7 +3283,7 @@ La persona debe comprender claramente:
 * Cómo probar todo por sí sola.
 ---
 
-# PROMT 27 
+# PROMPT 27 
 
 ## **Rol**
 
@@ -3458,7 +3457,7 @@ La persona debe comprender claramente:
 
 ---
 
-# PROMT 28 
+# PROMPT 28 
 
 ## **Rol**
 
@@ -3586,7 +3585,7 @@ El usuario debe terminar entendiendo:
 * Cómo probarlo por sí mismo.
 ---
 
-# PROMT 29 
+# PROMPT 29 
 
 ## **Rol**
 
@@ -3764,7 +3763,7 @@ Que el usuario entienda:
 
 ---
 
-# PROMT 30 
+# PROMPT 30 
   
 ## **Rol**
 
